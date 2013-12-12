@@ -9,7 +9,8 @@ Version 2.7.5.2
  - Added `transaction` operations: WATCH, MULTI, UNWATCH
  - Added expiration operations: EXPIREAT, PEXPIRE, PTTL, PSETX
  - Fixed return values for some `set` operations
-
+ - Added `pubsub` operations: PUBLISH
+ 
 Version 2.7.5.1
 
  - Changed DEL to support a list of keys as arguments and return the number of
